@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Дано число из отрезка [10, 99]. Показать наибольшую цифру числа");
+﻿Console.Clear();
+Console.WriteLine("Дано число из отрезка [10, 99]. Показать наибольшую цифру числа");
 
 int    randomValue  = new Random().Next(10,100);
 string sRandomValue = randomValue.ToString();

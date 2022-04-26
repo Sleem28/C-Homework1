@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Выяснить является ли число чётным");
+﻿Console.Clear();
+Console.WriteLine("Выяснить является ли число чётным");
 
 Console.Write("Введите число: ");
 int num = int.Parse(Console.ReadLine()?? "0");
