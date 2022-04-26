@@ -11,7 +11,7 @@ bool secondNumIsNegative = secondNum > 0 ? false:true;
 
 if(Math.Abs(firstNum) > Math.Abs(secondNum)) // Проверка имеет смысл. только если проверяемое число больше либо равно заданному
 {
-    Console.WriteLine("Проверяемое число должно быть больше заданного!!!");
+    Console.WriteLine("Проверяемое число должно быть по модулю больше заданного!!!");
     return;
 }
 string singAndRemainder = getRemainder(firstNumIsNegative,secondNumIsNegative);
