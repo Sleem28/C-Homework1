@@ -15,8 +15,7 @@ string sNum   = iNum.ToString();
 
 if(sNum.Length == 3)
 {
-    char[] tmpArray = sNum.ToCharArray();
-    int    value    = int.Parse(tmpArray[0].ToString() + tmpArray[2].ToString());
+    int    value    = int.Parse(sNum[0].ToString() + sNum[2].ToString());
     if(numIsNegative) value = - value;
     Console.WriteLine("Число после удаления второй цифры равно " + value + ".");
 }
